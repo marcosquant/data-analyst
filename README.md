@@ -7,11 +7,12 @@ Repository with projects developed during the **[Data Analyst Nanodegree](https:
 | # | Project | Description | Techniques |
 |---|---------|-------------|------------|
 | 1 | [Investigate a Dataset](project_1/) | Exploratory data analysis on a no-show medical appointments dataset to identify factors that influence patient attendance | Exploratory Data Analysis (EDA) |
+| 2 | [Data Wrangling](project_2/) | Gathering, assessing, and cleaning U.S. inflation (CPI) and S&P 500 datasets to explore the relationship between inflation and stock market performance | Data Wrangling, FRED API, Data Cleaning, Data Merging |
 
 ## Technologies
 
 - Python 3.x
-- NumPy · Pandas · Matplotlib · Seaborn
+- NumPy · Pandas · Matplotlib · Seaborn · fredapi
 - Jupyter Notebook
 
 ## How to Run
