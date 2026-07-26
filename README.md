@@ -25,10 +25,19 @@ Repository with projects developed during the **[Data Analyst Nanodegree](https:
 
 2. Install the dependencies (recommended via [Anaconda](https://www.anaconda.com/)):
    ```bash
-   pip install numpy pandas matplotlib seaborn jupyter
+   pip install numpy pandas matplotlib seaborn jupyter fredapi
    ```
 
-3. Navigate to the project folder and open the notebook:
+3. Before running Project 2, set your FRED API key as an environment variable:
+
+   ```powershell
+   $env:FRED_API_KEY="your_api_key"
+   ```
+
+   Keep the real value only in your local environment. Never add it to a
+   notebook, source file, or Git commit.
+
+4. Navigate to the project folder and open the notebook:
    ```bash
    cd project_1
    jupyter notebook Investigate_a_Dataset.ipynb
